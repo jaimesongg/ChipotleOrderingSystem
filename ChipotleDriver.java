@@ -13,7 +13,6 @@ Burrito  defaultBurrito2 = new Burrito(defaultBurrito);// Same as defaultBurrito
 BurritoOrder order = new BurritoOrder(3);// create an order of THREE Burritos
 
 
-// no need to change anything here
 
 // add defaultBurrito to the order
 System.out.println(order.addBurrito(defaultBurrito));
@@ -27,14 +26,12 @@ System.out.println(order.addBurrito(veggieBurrito2));
 // add defaultBurrito2 to the order – what happens here? 
 System.out.println(order.addBurrito(defaultBurrito2));
 
-// are veggieBurrito and veggieBurrito2 the same? should be!
 System.out.print("are veggieBurrito and veggieBurrito2 the same? ");
 System.out.println(veggieBurrito.equals(veggieBurrito2));
 // are veggieBurrito and defaultBurrito the same? shouldn't be...
 System.out.print("are veggieBurrito and defaultBurrito the same? ");
 System.out.println(veggieBurrito.equals(defaultBurrito));
 
-// Should call order’s toString methods
 System.out.println(order);
 }
 }
